@@ -1,50 +1,32 @@
 {
-  "background_color": "#ffffff",
+  "name": "Dial It Up",
+  "short_name": "DialItUp",
   "description": "This small game has BIG potential...",
+  "background_color": "#ffffff",
+  "theme_color": "#eeeeee",
   "dir": "ltr",
   "display": "standalone",
-  "name": "itch.io",
   "orientation": "any",
-  "scope": "/",
-  "short_name": "itch.io",
-  "start_url": "/",
-  "theme_color": "#eeeeee",
+  "scope": "./",
+  "start_url": "./index.html",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-    {
-      "src": "https://img.itch.zone/aW1nLzI1NDc0OTY4LnBuZw==/original/ZZcBsi.png",
       "type": "image/png",
-      "sizes": "494x751",
-      "isSquare": false,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 494,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "purpose": "any"
     },
     {
-      "src": "https://codingaaron.itch.io/favicon.ico",
-      "type": "image/x-icon",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
