@@ -342,18 +342,7 @@ config = {
     </style>
 
     <script src="https://pygame-web.github.io/archives/0.9//browserfs.min.js"></script>
-    <link rel="manifest" href="manifest.json">
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('sw.js').then(reg => {
-            console.log('Service Worker registered!', reg);
-          }).catch(err => {
-            console.log('Service Worker registration failed: ', err);
-          });
-        });
-      }
-    </script>
+
 </head>
 
 <body>
