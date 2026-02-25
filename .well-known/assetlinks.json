@@ -1,8 +1,14 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.aaronjrovee.twa",
-        "sha256_cert_fingerprints": ["BE:E2:7B:2A:80:32:FE:C9:54:7F:9B:26:BF:5D:E7:A7:18:59:C9:C9:6D:7F:79:37:5A:DF:8A:95:54:9B:B4:2D"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.aaronjrovee.twa",
+      "sha256_cert_fingerprints": [
+        "B0:2A:EE:6E:10:DE:DA:91:63:27:18:65:44:F5:BC:3C:59:56:55:FF:8D:54:DC:2A:26:5F:E7:2E:F9:00:B9:BB"
+      ]
+    }
+  }
+]
